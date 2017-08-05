@@ -1,8 +1,5 @@
-[![Build Status](https://travis-ci.org/Seedstars/django-react-redux-base.svg?branch=master)](https://travis-ci.org/Seedstars/django-react-redux-base)
+# Django React/Redux Project
 
-# Django React/Redux Base Project
-
-This repository includes a boilerplate project used for all Seedstars Labs applications. It uses Django as backend and React as frontend.
 
 We build on the shoulders of giants with the following technologies:
 
@@ -52,18 +49,11 @@ We build on the shoulders of giants with the following technologies:
 
 ## Retrieve code
 
-* `$ git clone https://github.com/seedstars/django-react-redux-base.git`
+* `$ git clone https://github.com/urchindev/React-Redux-Django-Project.git`
 * `$ cd django-react-redux-base`
 * `$ git submodule init`
 * `$ git submodule update`
 * `$ ./scripts/get_static_validation.sh`
-
-
-Remember that when you copy this repository for a new project you need to add the scripts external module using:
-
-* `$ git submodule add https://github.com/Seedstars/culture-scripts scripts`
-
-NOTE: This is only needed in case you copy this code to a new project. If you only clone or fork the repository, the submodule is already configured
 
 
 ## Installation
@@ -173,6 +163,6 @@ We welcome contributions from the community, given that they respect these basic
 * All Tests & Static Analysis passing;
 * 100% code coverage;
 
-Prior to any pull-request, we advise to [open an issue](https://github.com/Seedstars/django-react-redux-base/issues). This is because, although we are happy to merge your code, we must make sure the changes don't impact our way of doing things, thus resulting on a declined PR, and your time wasted.
+Prior to any pull-request, we advise to [open an issue](https://github.com/urchindev/React-Redux-Django-Project/issues). This is because, although we are happy to merge your code, we must make sure the changes don't impact our way of doing things, thus resulting on a declined PR, and your time wasted.
 
 If you want to tackle any open issue, well..... Just go for it! :)
